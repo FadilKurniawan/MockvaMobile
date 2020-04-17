@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mockva Mobile</string>
+
+    <string name="header_account">Account</string>
+    <string name="header_transfer">Transfer</string>
+    <string name="header_history">History</string>
+
+    <string name="txv_AccountNum">Account Number</string>
+    <string name="txv_Name">Name</string>
+    <string name="txv_Balance">Balance</string>
+    <string name="txv_DateHistory">Date: </string>
+    <string name="txv_AmountHistory">Amount: </string>
+    <string name="txv_RefHistory">Ref: </string>
+    <string name="txv_DestHistory">Destination :</string>
+    <string name="txv_NoHistoru">No History of Transaction</string>
+    <string name="txv_AccountSrc">Account Source</string>
+    <string name="txv_AccountSrcName">Account Source Name</string>
+    <string name="txv_AccountDest">Account Destination</string>
+    <string name="txv_AccountDestName">Account Destination Name</string>
+    <string name="txv_Amount">Amount</string>
+    <string name="txv_ReferenceNumber">Reference Number</string>
+    <string name="txv_TransactionTimestamp">Transaction Timestamp</string>
+    <string name="txv_Status">Status</string>
+    <string name="txv_StatusRest">SUCCESS</string>
+
+    <string name="hint_username">username</string>
+    <string name="hint_password">password</string>
+
+    <string name="btn_Login">Log in</string>
+    <string name="btn_LogOut">Logout</string>
+    <string name="btn_Transfer">Transfer</string>
+    <string name="btn_Confirm">Confirm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

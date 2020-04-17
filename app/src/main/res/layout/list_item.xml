@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/txvDateHistory"
+        android:text="@string/txv_DateHistory"
+        style="@style/list_history"/>
+
+    <TextView
+        android:id="@+id/txvAmountHistory"
+        android:text="@string/txv_AmountHistory"
+        style="@style/list_history" />
+
+    <TextView
+        android:id="@+id/txvRefHistory"
+        android:text="@string/txv_RefHistory"
+        style="@style/list_history" />
+
+    <TextView
+        android:id="@+id/txvDestHistory"
+        android:text="@string/txv_DestHistory"
+        style="@style/list_history"/>
+
+
+    </LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutheaderbase"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="56dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_gravity="center"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/btn_back"/>
+
+        <TextView
+            android:id="@+id/AppbarHeader"
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/greyDark"
+            android:text="@string/app_name"
+            android:gravity="center_vertical|left"
+            android:textSize="23dp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/form_separator"
+        android:layout_below="@id/headerLayout"/>
+
+</RelativeLayout>

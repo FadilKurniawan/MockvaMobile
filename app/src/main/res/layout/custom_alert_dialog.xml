@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_alertdialog"
+    android:orientation="vertical"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="35dp"
+    >
+    <TextView
+        android:visibility="gone"
+        android:layout_margin="20dp"
+        android:id="@+id/txvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Title"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/txvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Content"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="OK"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/bg_btnalertdialog"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+</LinearLayout>

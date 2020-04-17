@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/headerLayout"
+            layout="@layout/app_bar"/>
+
+        <include
+            android:id="@+id/loadview"
+            layout="@layout/loading_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/layout_trans"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="50dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/blueDark"
+                android:text="@string/txv_AccountDest"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/edt_AccountNumber"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_textfield"
+                android:hint="@string/txv_AccountDest"
+                android:layout_marginBottom="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/blueDark"
+                android:text="@string/txv_Amount"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/edt_Amount"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_textfield"
+                android:hint="@string/txv_Amount"
+                android:layout_marginBottom="50dp"/>
+
+            <Button
+                android:id="@+id/btnTransfer"
+                android:text="@string/btn_Transfer"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/btn_logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+             />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/childContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LoginField">
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">64dp</item>
+        <item name="android:layout_marginLeft">50sp</item>
+        <item name="android:layout_marginRight">50sp</item>
+    </style>
+
+    <style name="list_history">
+        <item name="android:layout_width" >wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="edt_BaseConfirmTransfer">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:enabled">false</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/bg_textfield</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <style name="txv_resultField">
+        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">sans-serif-black</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+</resources>
